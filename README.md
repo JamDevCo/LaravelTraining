@@ -24,6 +24,9 @@ composer global require laravel/installer
 > bash
 > ```
 
+## Training Guide
+https://laravel.com/docs/5.1/quickstart
+
 
 ### Support or Contact
 
