@@ -4,29 +4,33 @@ You can use view the presentation slides on [Laravel Training - 0720](https://do
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Markdown
 
-## Installing Laravel on Ubuntu
-```bash
-sudo apt update -y
-sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
-sudo apt install composer -y
-composer global require laravel/installer
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
 ```
 
-> Check if the Laravel is installed by executing the following command:
-> ```bash
-> laravel
-> ```
-> 
-> If it returns, `laravel: command not found`, then you will need to run the following command:
-> ```bash
-> echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
-> bash
-> ```
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-## Training Guide
-https://laravel.com/docs/5.1/quickstart
+### Jekyll Themes
 
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JamaicanDevelopers/LaravelTraining/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
