@@ -4,6 +4,27 @@ You can use view the presentation slides on [Laravel Training - 0720](https://do
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+## Installing Laravel on Ubuntu
+```bash
+sudo apt update -y
+sudo apt install openssl php-common php-curl php-json php-mbstring php-mysql php-xml php-zip
+sudo apt install composer -y
+composer global require laravel/installer
+```
+
+> Check if the Laravel is installed by executing the following command:
+> ```bash
+> laravel
+> ```
+> 
+> If it returns, `laravel: command not found`, then you will need to run the following command:
+> ```bash
+> echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
+> bash
+> ```
+
+
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
