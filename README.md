@@ -24,6 +24,10 @@ composer global require laravel/installer
 > bash
 > ```
 
+```
+git clone https://github.com/JamaicanDevelopers/Laravel-QuickStart-Task-List.git
+```
+
 ## Training Guide
 https://laravel.com/docs/5.1/quickstart
 
