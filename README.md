@@ -25,7 +25,7 @@ composer global require laravel/installer
 > ```
 
 ```
-git clone https://github.com/JamaicanDevelopers/Laravel-QuickStart-Task-List.git
+git clone https://github.com/JamaicanDevelopers/Laravel-QuickStart-Task-List.git laravelqslt
 ```
 
 ## Training Guide
